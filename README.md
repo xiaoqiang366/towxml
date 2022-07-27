@@ -35,7 +35,7 @@ Fork from [Towxml 3.2.3](https://github.com/sbfkcel/towxml)
 
 2. 引入库 /app.js
 
-```
+```javascript
 // app.js
 const towxml = require('/towxml/index');
 
