@@ -1,5 +1,20 @@
-/demo/towxml/
-/node_modules/
-/.vscode/
+# Windows
+[Dd]esktop.ini
+Thumbs.db
+$RECYCLE.BIN/
+
+# macOS
 .DS_Store
-project.config.json
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+
+# Node.js
+node_modules/
+
+# miniprogram
+project.private.config.json
+dist_*
+dist_towxml
+dist_towxml_debug
