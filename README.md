@@ -20,14 +20,17 @@ Fork from [Towxml 3.2.3](https://github.com/sbfkcel/towxml)
 
 新构建出来的文件在 `dist_towxml` 目录下，将 `dist_towxml` 目录复制到你的小程序项目中并将目录名称改为`towxml`即可。
 
-### 配置说明
+<detail>
+  <summary>配置说明</summary>
+  
+  考虑到并不是所有人都需要用到，默认只开启部分功能，可自行构建以开启对应功能。towxml3.0 支持以下功能：
 
-考虑到并不是所有人都需要用到，默认只开启部分功能，可自行构建以开启对应功能。towxml3.0 支持以下功能：
-
-+ [echarts图表](https://github.com/sbfkcel/towxml/wiki/3.0-Echarts%E6%94%AF%E6%8C%81)，默认禁用，需自行构建以开启此功能
-+ [LaTeX数学公式](https://github.com/sbfkcel/towxml/wiki/3.0-%E6%95%B0%E5%AD%97%E5%85%AC%E5%BC%8F&yuml%E6%B5%81%E7%A8%8B%E5%9B%BE%E6%94%AF%E6%8C%81#%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5latex%E5%85%AC%E5%BC%8F)，默认禁用，需搭建解析服务并自行构建以开启此功能
-+ [yuml图表](https://github.com/sbfkcel/towxml/wiki/3.0-%E6%95%B0%E5%AD%97%E5%85%AC%E5%BC%8F&yuml%E6%B5%81%E7%A8%8B%E5%9B%BE%E6%94%AF%E6%8C%81#%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5yuml%E6%B5%81%E7%A8%8B%E5%9B%BE)，默认禁用，需要搭建解析服务并自行构建以开启此功能
-+ highlight代码高亮，默认开启（默认仅开启bash、javascript、json、python、html、css、php、scss、shell），其它语言高亮支持需自行构建以开启
+  + [echarts图表](https://github.com/sbfkcel/towxml/wiki/3.0-Echarts%E6%94%AF%E6%8C%81)，默认禁用，需自行构建以开启此功能
+  + [LaTeX数学公式](https://github.com/sbfkcel/towxml/wiki/3.0-%E6%95%B0%E5%AD%97%E5%85%AC%E5%BC%8F&yuml%E6%B5%81%E7%A8%8B%E5%9B%BE%E6%94%AF%E6%8C%81#%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5latex%E5%85%AC%E5%BC%8F)，默认禁用，需搭建解析服务并自行构建以开启此功能
+  + [yuml图表](https://github.com/sbfkcel/towxml/wiki/3.0-%E6%95%B0%E5%AD%97%E5%85%AC%E5%BC%8F&yuml%E6%B5%81%E7%A8%8B%E5%9B%BE%E6%94%AF%E6%8C%81#%E5%A6%82%E4%BD%95%E6%8F%92%E5%85%A5yuml%E6%B5%81%E7%A8%8B%E5%9B%BE)，默认禁用，需要搭建解析服务并自行构建以开启此功能
+  + highlight代码高亮，默认开启（默认仅开启bash、javascript、json、python、html、css、php、scss、shell），其它语言高亮支持需自行构建以开启
+  
+</detail>
 
 ### 在项目中引用
 
