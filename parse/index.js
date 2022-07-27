@@ -34,12 +34,16 @@ const initObj = (obj, option) => {
   const result = {
       theme: option.theme || 'light',
       _e: {},
+      images: []
     },
     events = (global._events = {}),
     base = option.base;
 
   // 主题保存到全局
   global._theme = result.theme;
+
+  // 解析内容中全部图片
+  global._images = result.images;
 
   // 事件添加到全局中，各个组件在触发事件时会从全局调用
   if (option.events) {
@@ -97,6 +101,11 @@ const initObj = (obj, option) => {
               attrs.src = `${base}${src}`;
               break;
           }
+        }
+
+        // 收集解析内容中的图片(img 标签)
+        if (o.tag === 'img') {
+          global._images.push(o.attrs.src);
         }
       }
 

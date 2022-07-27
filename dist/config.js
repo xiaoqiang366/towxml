@@ -1,7 +1,7 @@
 module.exports = {
   debug: false,
-  // output: 'dist_towxml',
   output: 'dist',
+  // output: 'dist',
 
   // LaTex公式、yuml解析服务架设参见 https://github.com/sbfkcel/markdown-server
 
@@ -46,18 +46,20 @@ module.exports = {
     'python',
     'python-repl',
     'typescript',
+    'yaml',
+    'markdown',
+    'stylus',
+    'basic',
+    'ruby',
+    'swift',
 
     // 'csharp',
     // 'http',
     // 'swift',
-    // 'yaml',
-    // 'markdown',
     // 'powershell',
     // 'ruby',
     // 'makefile',
     // 'lua',
-    // 'stylus',
-    // 'basic',
     // '1c',
     // 'abnf',
     // 'accesslog',
@@ -278,7 +280,7 @@ module.exports = {
     // 'touchmove',
     // 'touchcancel',
     // 'touchend',
-    // 'tap', // 用于元素的点击事件
+    'tap', // 用于元素的点击事件
     // 'change', // 用于todoList的change事件
   ],
 
